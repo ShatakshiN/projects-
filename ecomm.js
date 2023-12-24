@@ -33,6 +33,8 @@ function updateTotalAmountOnScreen() {
     if (!totalAmountElem){
         totalAmountElem = document.createElement('h2');
     totalAmountElem.id = 'totalAmount';
+    totalAmountElem.style.backgroundColor = 'white';
+    totalAmountElem.className = 'text-center container col-4' 
     document.body.appendChild(totalAmountElem);
     } 
     // Update the content of the total amount heading
